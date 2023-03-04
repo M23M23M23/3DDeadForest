@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="setan_spooky.png">
+<SubTexture name="setan_spooky down0000" x="0" y="0" width="676" height="893" frameX="-137" frameY="0" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky down0001" x="0" y="0" width="676" height="893" frameX="-137" frameY="0" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky down0002" x="676" y="0" width="640" height="641" frameX="-118" frameY="-221" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky down0003" x="676" y="0" width="640" height="641" frameX="-118" frameY="-221" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky down0004" x="1316" y="0" width="603" height="698" frameX="-84" frameY="-164" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky down0005" x="1316" y="0" width="603" height="698" frameX="-84" frameY="-164" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky down0006" x="1919" y="0" width="553" height="733" frameX="-32" frameY="-131" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky down0007" x="1919" y="0" width="553" height="733" frameX="-32" frameY="-131" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky down0008" x="1919" y="0" width="553" height="733" frameX="-32" frameY="-131" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky down0009" x="1919" y="0" width="553" height="733" frameX="-32" frameY="-131" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky idle0000" x="0" y="893" width="603" height="735" frameX="-165" frameY="-100" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky left0000" x="603" y="893" width="890" height="699" frameX="0" frameY="-138" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky left0001" x="603" y="893" width="890" height="699" frameX="0" frameY="-138" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky left0002" x="1493" y="893" width="850" height="725" frameX="-43" frameY="-112" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky left0003" x="1493" y="893" width="850" height="725" frameX="-43" frameY="-112" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky left0004" x="2343" y="893" width="786" height="737" frameX="-114" frameY="-100" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky left0005" x="2343" y="893" width="786" height="737" frameX="-114" frameY="-100" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky left0006" x="0" y="1630" width="722" height="737" frameX="-169" frameY="-100" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky left0007" x="0" y="1630" width="722" height="737" frameX="-169" frameY="-100" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky left0008" x="0" y="1630" width="722" height="737" frameX="-169" frameY="-100" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky left0009" x="0" y="1630" width="722" height="737" frameX="-169" frameY="-100" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky right0000" x="722" y="1630" width="678" height="661" frameX="-221" frameY="-190" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky right0001" x="722" y="1630" width="678" height="661" frameX="-221" frameY="-190" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky right0002" x="1400" y="1630" width="645" height="700" frameX="-188" frameY="-151" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky right0003" x="1400" y="1630" width="645" height="700" frameX="-188" frameY="-151" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky right0004" x="2045" y="1630" width="606" height="727" frameX="-155" frameY="-127" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky right0005" x="2045" y="1630" width="606" height="727" frameX="-155" frameY="-127" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky right0006" x="0" y="2367" width="597" height="750" frameX="-120" frameY="-107" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky right0007" x="0" y="2367" width="597" height="750" frameX="-120" frameY="-107" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky right0008" x="0" y="2367" width="597" height="750" frameX="-120" frameY="-107" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky right0009" x="0" y="2367" width="597" height="750" frameX="-120" frameY="-107" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky up0000" x="597" y="2367" width="937" height="839" frameX="-29" frameY="-27" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky up0001" x="597" y="2367" width="937" height="839" frameX="-29" frameY="-27" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky up0002" x="1534" y="2367" width="888" height="793" frameX="-78" frameY="-73" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky up0003" x="1534" y="2367" width="888" height="793" frameX="-78" frameY="-73" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky up0004" x="2422" y="2367" width="842" height="756" frameX="-124" frameY="-110" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky up0005" x="2422" y="2367" width="842" height="756" frameX="-124" frameY="-110" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky up0006" x="0" y="3206" width="779" height="720" frameX="-187" frameY="-146" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky up0007" x="0" y="3206" width="779" height="720" frameX="-187" frameY="-146" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky up0008" x="0" y="3206" width="779" height="720" frameX="-187" frameY="-146" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky up0009" x="0" y="3206" width="779" height="720" frameX="-187" frameY="-146" frameWidth="939" frameHeight="853" />
+<SubTexture name="setan_spooky up0010" x="0" y="3206" width="779" height="720" frameX="-187" frameY="-146" frameWidth="939" frameHeight="853" />
+</TextureAtlas>

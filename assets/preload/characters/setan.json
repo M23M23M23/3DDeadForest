@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-200
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "setan_spooky idle"
+		},
+		{
+			"offsets": [
+				-35,
+				-198
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "setan_spooky left"
+		},
+		{
+			"offsets": [
+				-234,
+				-185
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "setan_spooky down"
+		},
+		{
+			"offsets": [
+				-230,
+				-180
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "setan_spooky right"
+		},
+		{
+			"offsets": [
+				-49,
+				-180
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "setan_spooky up"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "setan/setan_spooky",
+	"position": [
+		-410,
+		-190
+	],
+	"healthicon": "setan",
+	"flip_x": false,
+	"healthbar_colors": [
+		138,
+		47,
+		19
+	],
+	"camera_position": [
+		30,
+		400
+	],
+	"sing_duration": 6.1,
+	"scale": 0.7
+}

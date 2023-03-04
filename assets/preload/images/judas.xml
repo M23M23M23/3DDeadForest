@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="judas.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="spin0000" x="0" y="0" width="345" height="376" frameX="-25" frameY="-32" frameWidth="370" frameHeight="455"/>
+	<SubTexture name="spin0001" x="0" y="0" width="345" height="376" frameX="-25" frameY="-32" frameWidth="370" frameHeight="455"/>
+	<SubTexture name="spin0002" x="350" y="0" width="343" height="396" frameX="0" frameY="-28" frameWidth="370" frameHeight="455"/>
+	<SubTexture name="spin0003" x="350" y="0" width="343" height="396" frameX="0" frameY="-28" frameWidth="370" frameHeight="455"/>
+	<SubTexture name="spin0004" x="698" y="0" width="359" height="369" frameX="-9" frameY="-32" frameWidth="370" frameHeight="455"/>
+	<SubTexture name="spin0005" x="698" y="0" width="359" height="369" frameX="-9" frameY="-32" frameWidth="370" frameHeight="455"/>
+	<SubTexture name="spin0006" x="0" y="401" width="319" height="455" frameX="-14" frameY="0" frameWidth="370" frameHeight="455"/>
+</TextureAtlas>

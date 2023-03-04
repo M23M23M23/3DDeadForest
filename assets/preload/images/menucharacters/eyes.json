@@ -1,0 +1,11 @@
+{
+	"idle_anim": "menu",
+	"image": "Menu_Eyes",
+	"position": [
+		178,
+		24
+	],
+	"flipX": false,
+	"scale": 1,
+	"confirm_anim": "M Dad Idle"
+}

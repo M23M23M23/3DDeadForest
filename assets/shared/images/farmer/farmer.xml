@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="farmer.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="FARMERDOWN0000" x="0" y="0" width="475" height="504" frameX="0" frameY="-11" frameWidth="475" frameHeight="515"/>
+	<SubTexture name="FARMERDOWN0001" x="0" y="0" width="475" height="504" frameX="0" frameY="-11" frameWidth="475" frameHeight="515"/>
+	<SubTexture name="FARMERDOWN0002" x="480" y="0" width="453" height="515" frameX="-11" frameY="0" frameWidth="475" frameHeight="515"/>
+	<SubTexture name="FARMERDOWN0003" x="480" y="0" width="453" height="515" frameX="-11" frameY="0" frameWidth="475" frameHeight="515"/>
+	<SubTexture name="FARMERDOWN0004" x="938" y="0" width="470" height="506" frameX="-2" frameY="-9" frameWidth="475" frameHeight="515"/>
+	<SubTexture name="FARMERIDLE0000" x="1413" y="0" width="390" height="587" frameX="0" frameY="-30" frameWidth="392" frameHeight="617"/>
+	<SubTexture name="FARMERIDLE0001" x="1413" y="0" width="390" height="587" frameX="0" frameY="-30" frameWidth="392" frameHeight="617"/>
+	<SubTexture name="FARMERIDLE0002" x="1808" y="0" width="392" height="585" frameX="0" frameY="-32" frameWidth="392" frameHeight="617"/>
+	<SubTexture name="FARMERIDLE0003" x="1808" y="0" width="392" height="585" frameX="0" frameY="-32" frameWidth="392" frameHeight="617"/>
+	<SubTexture name="FARMERIDLE0004" x="2205" y="0" width="386" height="591" frameX="-2" frameY="-26" frameWidth="392" frameHeight="617"/>
+	<SubTexture name="FARMERIDLE0005" x="2205" y="0" width="386" height="591" frameX="-2" frameY="-26" frameWidth="392" frameHeight="617"/>
+	<SubTexture name="FARMERIDLE0006" x="0" y="596" width="375" height="605" frameX="-2" frameY="-12" frameWidth="392" frameHeight="617"/>
+	<SubTexture name="FARMERIDLE0007" x="0" y="596" width="375" height="605" frameX="-2" frameY="-12" frameWidth="392" frameHeight="617"/>
+	<SubTexture name="FARMERIDLE0008" x="380" y="596" width="361" height="617" frameX="-2" frameY="0" frameWidth="392" frameHeight="617"/>
+	<SubTexture name="FARMERIDLE0009" x="380" y="596" width="361" height="617" frameX="-2" frameY="0" frameWidth="392" frameHeight="617"/>
+	<SubTexture name="FARMERIDLE0010" x="746" y="596" width="362" height="616" frameX="-2" frameY="-1" frameWidth="392" frameHeight="617"/>
+	<SubTexture name="FARMERIDLE0011" x="746" y="596" width="362" height="616" frameX="-2" frameY="-1" frameWidth="392" frameHeight="617"/>
+	<SubTexture name="FARMERIDLE0012" x="1113" y="596" width="370" height="611" frameX="-2" frameY="-6" frameWidth="392" frameHeight="617"/>
+	<SubTexture name="FARMERIDLE0013" x="1113" y="596" width="370" height="611" frameX="-2" frameY="-6" frameWidth="392" frameHeight="617"/>
+	<SubTexture name="FARMERLEFT0000" x="1488" y="596" width="471" height="637" frameX="0" frameY="0" frameWidth="473" frameHeight="637"/>
+	<SubTexture name="FARMERLEFT0001" x="1488" y="596" width="471" height="637" frameX="0" frameY="0" frameWidth="473" frameHeight="637"/>
+	<SubTexture name="FARMERLEFT0002" x="1964" y="596" width="435" height="636" frameX="-38" frameY="-1" frameWidth="473" frameHeight="637"/>
+	<SubTexture name="FARMERLEFT0003" x="1964" y="596" width="435" height="636" frameX="-38" frameY="-1" frameWidth="473" frameHeight="637"/>
+	<SubTexture name="FARMERLEFT0004" x="0" y="1238" width="441" height="636" frameX="-32" frameY="-1" frameWidth="473" frameHeight="637"/>
+	<SubTexture name="FARMERRIGHT0000" x="446" y="1238" width="469" height="591" frameX="-20" frameY="-2" frameWidth="489" frameHeight="593"/>
+	<SubTexture name="FARMERRIGHT0001" x="446" y="1238" width="469" height="591" frameX="-20" frameY="-2" frameWidth="489" frameHeight="593"/>
+	<SubTexture name="FARMERRIGHT0002" x="920" y="1238" width="457" height="593" frameX="0" frameY="0" frameWidth="489" frameHeight="593"/>
+	<SubTexture name="FARMERRIGHT0003" x="920" y="1238" width="457" height="593" frameX="0" frameY="0" frameWidth="489" frameHeight="593"/>
+	<SubTexture name="FARMERRIGHT0004" x="1382" y="1238" width="462" height="592" frameX="-3" frameY="-1" frameWidth="489" frameHeight="593"/>
+	<SubTexture name="FARMERUP0000" x="1849" y="1238" width="616" height="712" frameX="-2" frameY="0" frameWidth="620" frameHeight="712"/>
+	<SubTexture name="FARMERUP0001" x="1849" y="1238" width="616" height="712" frameX="-2" frameY="0" frameWidth="620" frameHeight="712"/>
+	<SubTexture name="FARMERUP0002" x="0" y="1955" width="620" height="705" frameX="0" frameY="-7" frameWidth="620" frameHeight="712"/>
+	<SubTexture name="FARMERUP0003" x="0" y="1955" width="620" height="705" frameX="0" frameY="-7" frameWidth="620" frameHeight="712"/>
+	<SubTexture name="FARMERUP0004" x="625" y="1955" width="618" height="706" frameX="-2" frameY="-6" frameWidth="620" frameHeight="712"/>
+</TextureAtlas>

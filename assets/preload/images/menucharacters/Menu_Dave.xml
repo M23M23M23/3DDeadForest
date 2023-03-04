@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_Dave.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="davedance0000" x="0" y="0" width="394" height="311" frameX="-4" frameY="-1" frameWidth="398" frameHeight="312"/>
+	<SubTexture name="davedance0001" x="0" y="0" width="394" height="311" frameX="-4" frameY="-1" frameWidth="398" frameHeight="312"/>
+	<SubTexture name="davedance0002" x="399" y="0" width="393" height="311" frameX="-4" frameY="-1" frameWidth="398" frameHeight="312"/>
+	<SubTexture name="davedance0003" x="399" y="0" width="393" height="311" frameX="-4" frameY="-1" frameWidth="398" frameHeight="312"/>
+	<SubTexture name="davedance0004" x="0" y="316" width="390" height="312" frameX="-2" frameY="0" frameWidth="398" frameHeight="312"/>
+	<SubTexture name="davedance0005" x="0" y="316" width="390" height="312" frameX="-2" frameY="0" frameWidth="398" frameHeight="312"/>
+	<SubTexture name="davedance0006" x="395" y="316" width="391" height="312" frameX="0" frameY="0" frameWidth="398" frameHeight="312"/>
+	<SubTexture name="davedance0007" x="395" y="316" width="391" height="312" frameX="0" frameY="0" frameWidth="398" frameHeight="312"/>
+	<SubTexture name="davedance0008" x="0" y="633" width="391" height="312" frameX="0" frameY="0" frameWidth="398" frameHeight="312"/>
+	<SubTexture name="davedance0009" x="0" y="633" width="391" height="312" frameX="0" frameY="0" frameWidth="398" frameHeight="312"/>
+	<SubTexture name="davedance0010" x="396" y="633" width="393" height="312" frameX="0" frameY="0" frameWidth="398" frameHeight="312"/>
+	<SubTexture name="davedance0011" x="396" y="633" width="393" height="312" frameX="0" frameY="0" frameWidth="398" frameHeight="312"/>
+	<SubTexture name="davedance0012" x="0" y="950" width="392" height="312" frameX="-3" frameY="0" frameWidth="398" frameHeight="312"/>
+	<SubTexture name="davedance0013" x="0" y="950" width="392" height="312" frameX="-3" frameY="0" frameWidth="398" frameHeight="312"/>
+</TextureAtlas>

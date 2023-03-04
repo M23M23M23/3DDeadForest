@@ -1,0 +1,11 @@
+{
+	"idle_anim": "darreldance",
+	"image": "Menu_Darrel",
+	"position": [
+		-310,
+		10
+	],
+	"flipX": false,
+	"scale": 1,
+	"confirm_anim": "M Dad Idle"
+}

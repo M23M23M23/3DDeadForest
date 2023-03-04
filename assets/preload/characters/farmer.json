@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "FARMERIDLE"
+		},
+		{
+			"offsets": [
+				192,
+				13
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "FARMERLEFT"
+		},
+		{
+			"offsets": [
+				90,
+				-120
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "FARMERDOWN"
+		},
+		{
+			"offsets": [
+				207,
+				74
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "FARMERUP"
+		},
+		{
+			"offsets": [
+				50,
+				-50
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "FARMERRIGHT"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "farmer/farmer",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "farmer",
+	"flip_x": false,
+	"healthbar_colors": [
+		35,
+		25,
+		42
+	],
+	"camera_position": [
+		-100,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

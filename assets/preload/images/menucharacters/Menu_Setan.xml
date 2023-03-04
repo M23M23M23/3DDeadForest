@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_Setan.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="setanbop0000" x="0" y="0" width="274" height="292" frameX="0" frameY="-5" frameWidth="274" frameHeight="298"/>
+	<SubTexture name="setanbop0001" x="0" y="0" width="274" height="292" frameX="0" frameY="-5" frameWidth="274" frameHeight="298"/>
+	<SubTexture name="setanbop0002" x="279" y="0" width="270" height="295" frameX="-1" frameY="-2" frameWidth="274" frameHeight="298"/>
+	<SubTexture name="setanbop0003" x="279" y="0" width="270" height="295" frameX="-1" frameY="-2" frameWidth="274" frameHeight="298"/>
+	<SubTexture name="setanbop0004" x="554" y="0" width="267" height="298" frameX="-2" frameY="0" frameWidth="274" frameHeight="298"/>
+	<SubTexture name="setanbop0005" x="554" y="0" width="267" height="298" frameX="-2" frameY="0" frameWidth="274" frameHeight="298"/>
+	<SubTexture name="setanbop0006" x="0" y="303" width="267" height="298" frameX="-2" frameY="0" frameWidth="274" frameHeight="298"/>
+	<SubTexture name="setanbop0007" x="0" y="303" width="267" height="298" frameX="-2" frameY="0" frameWidth="274" frameHeight="298"/>
+	<SubTexture name="setanbop0008" x="272" y="303" width="267" height="298" frameX="-2" frameY="0" frameWidth="274" frameHeight="298"/>
+	<SubTexture name="setanbop0009" x="272" y="303" width="267" height="298" frameX="-2" frameY="0" frameWidth="274" frameHeight="298"/>
+	<SubTexture name="setanbop0010" x="544" y="303" width="267" height="298" frameX="-2" frameY="0" frameWidth="274" frameHeight="298"/>
+	<SubTexture name="setanbop0011" x="544" y="303" width="267" height="298" frameX="-2" frameY="0" frameWidth="274" frameHeight="298"/>
+	<SubTexture name="setanbop0012" x="0" y="606" width="269" height="297" frameX="-2" frameY="-1" frameWidth="274" frameHeight="298"/>
+	<SubTexture name="setanbop0013" x="0" y="606" width="269" height="297" frameX="-2" frameY="-1" frameWidth="274" frameHeight="298"/>
+</TextureAtlas>

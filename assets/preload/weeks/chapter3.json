@@ -1,0 +1,32 @@
+{
+	"storyName": "the finale",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "chapterthree",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"end-of-an-era",
+			"judas",
+			[
+				12,
+				0,
+				0
+			]
+		]
+	],
+	"weekCharacters": [
+		"eyes",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "3DDF: Chapter 3"
+}

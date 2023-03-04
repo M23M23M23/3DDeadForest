@@ -1,0 +1,11 @@
+{
+	"idle_anim": "setanbop",
+	"image": "Menu_Setan",
+	"position": [
+		0,
+		-10
+	],
+	"flipX": false,
+	"scale": 1,
+	"confirm_anim": "M Dad Idle"
+}
