@@ -2,6 +2,8 @@ package;
 
 import flixel.FlxG;
 import flixel.FlxSprite;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
 import flixel.addons.text.FlxTypeText;
 import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.group.FlxSpriteGroup;
@@ -203,18 +205,13 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		this.dialogueList = dialogueList;
 		spawnCharacters();
 
-		box = new FlxSprite(70, 370);
+		box = new FlxSprite(45, 420);
 		box.frames = Paths.getSparrowAtlas('speech_bubble');
 		box.scrollFactor.set();
 		box.antialiasing = ClientPrefs.globalAntialiasing;
 		box.animation.addByPrefix('normal', 'speech bubble normal', 24);
 		box.animation.addByPrefix('normalOpen', 'Speech Bubble Normal Open', 24, false);
-		box.animation.addByPrefix('angry', 'AHH speech bubble', 24);
-		box.animation.addByPrefix('angryOpen', 'speech bubble loud open', 24, false);
-		box.animation.addByPrefix('center-normal', 'speech bubble middle', 24);
-		box.animation.addByPrefix('center-normalOpen', 'Speech Bubble Middle Open', 24, false);
-		box.animation.addByPrefix('center-angry', 'AHH Speech Bubble middle', 24);
-		box.animation.addByPrefix('center-angryOpen', 'speech bubble Middle loud open', 24, false);
+		box.animation.addByPrefix('normalClose', 'Speech Bubble Normal Close', 24, false);
 		box.animation.play('normal', true);
 		box.visible = false;
 		box.setGraphicSize(Std.int(box.width * 0.9));
@@ -283,7 +280,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 	}
 
 	public static var DEFAULT_TEXT_X = 175;
-	public static var DEFAULT_TEXT_Y = 432;
+	public static var DEFAULT_TEXT_Y = 415;
 	public static var LONG_TEXT_ADD = 24;
 	var scrollSpeed = 4000;
 	var daText:TypedAlphabet = null;
@@ -321,8 +318,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 						}
 					}
 
-					box.animation.curAnim.curFrame = box.animation.curAnim.frames.length - 1;
-					box.animation.curAnim.reverse();
+					box.animation.play('normalClose', true);
 					if(daText != null)
 					{
 						daText.kill();
@@ -397,7 +393,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 				}
 			}
 		} else { //Dialogue ending
-			if(box != null && box.animation.curAnim.curFrame <= 0) {
+			if (box != null && box.animation.curAnim.curFrame <= 0) {
 				box.kill();
 				remove(box);
 				box.destroy();

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="psychalogue.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Speech Bubble Normal Close0000" x="0" y="433" width="1190" height="270" frameX="-9" frameY="-11" frameWidth="1190" frameHeight="270"/>
+	<SubTexture name="Speech Bubble Normal Close0001" x="0" y="0" width="1187" height="293" frameX="-9" frameY="0" frameWidth="1204" frameHeight="293"/>
+	<SubTexture name="Speech Bubble Normal Close0002" x="0" y="308" width="1204" height="110" frameX="0" frameY="-93" frameWidth="1204" frameHeight="293"/>
+	<SubTexture name="Speech Bubble Normal Close0003" x="1219" y="308" width="0" height="0" frameX="-601" frameY="84" frameWidth="1204" frameHeight="293"/>
+	<SubTexture name="Speech Bubble Normal Open0000" x="0" y="308" width="1204" height="110" frameX="0" frameY="-93" frameWidth="1204" frameHeight="293"/>
+	<SubTexture name="Speech Bubble Normal Open0001" x="0" y="308" width="1204" height="110" frameX="0" frameY="-93" frameWidth="1204" frameHeight="293"/>
+	<SubTexture name="Speech Bubble Normal Open0002" x="0" y="0" width="1187" height="293" frameX="-9" frameY="0" frameWidth="1204" frameHeight="293"/>
+	<SubTexture name="Speech Bubble Normal Open0003" x="0" y="433" width="1190" height="270" frameX="-9" frameY="-11" frameWidth="1190" frameHeight="270"/>
+	<SubTexture name="Speech Bubble Normal Open0004" x="0" y="433" width="1190" height="270" frameX="-9" frameY="-11" frameWidth="1190" frameHeight="270"/>
+	<SubTexture name="speech bubble normal0000" x="0" y="433" width="1190" height="270"/>
+</TextureAtlas>

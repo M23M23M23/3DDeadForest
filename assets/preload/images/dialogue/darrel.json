@@ -4,17 +4,18 @@
 		0,
 		50
 	],
+	"no_antialiasing": false,
 	"scale": 1.25,
 	"animations": [
 		{
 			"anim": "talk",
 			"loop_offsets": [
-				-82,
-				-7
+				-102,
+				33
 			],
 			"idle_offsets": [
-				-83,
-				-7
+				-103,
+				33
 			],
 			"loop_name": "BF LOOP",
 			"idle_name": "BF0"
