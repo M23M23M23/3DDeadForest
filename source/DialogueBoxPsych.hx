@@ -224,7 +224,6 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		daText = new TypedAlphabet(DEFAULT_TEXT_X, DEFAULT_TEXT_Y, '');
 		daText.scaleX = 0.7;
 		daText.scaleY = 0.7;
-		daText.FlxColor.RED;
 		add(daText);
 
 		startNextDialog();
