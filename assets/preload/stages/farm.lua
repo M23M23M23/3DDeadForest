@@ -1,6 +1,6 @@
 function onCreate()
 	-- background shit
-	makeLuaSprite('farm', 'chap2/farm', -689, -367);
+	makeLuaSprite('farm', 'farmer/farm', -689, -367);
 	setScrollFactor('farm', 0.9, 0.9);
 
 	addLuaSprite('farm', false);
