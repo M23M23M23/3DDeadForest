@@ -3,30 +3,48 @@
 	"difficulties": "Hard",
 	"hideFreeplay": false,
 	"weekBackground": "chaptertwo",
+	"weekBefore": "tutorial",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "tutorial",
 	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"malic",
+			"farmer",
+			[
+				30,
+				0,
+				29
+			]
+		],
+		[
+			"verrotten",
+			"farmer",
+			[
+				90,
+				27,
+				69
+			]
+		],
+		[
+			"applespeed",
+			"farmer",
+			[
+				130,
+				67,
+				109
+			]
+		]
+	],
 	"weekCharacters": [
 		"",
 		"dave",
 		""
 	],
-	"songs": [
-		[
-			"verrotten",
-			"farmer",
-			[
-				26,
-				13,
-				0
-			]
-		]
-	],
-	"hideStoryMode": false,
-	"weekName": "3DDF: Chapter 2",
-	"hiddenUntilUnlocked": false
+	"hiddenUntilUnlocked": false,
+	"weekName": "3DDF: Chapter 2"
 }
