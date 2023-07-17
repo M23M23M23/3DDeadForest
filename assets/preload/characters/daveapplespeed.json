@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-5,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "DaveIdle"
+		},
+		{
+			"offsets": [
+				-9,
+				3
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "DaveLeft0"
+		},
+		{
+			"offsets": [
+				24,
+				13
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "DaveUp0"
+		},
+		{
+			"offsets": [
+				77,
+				-7
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "DaveDown0"
+		},
+		{
+			"offsets": [
+				117,
+				-1
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "DaveRight0"
+		},
+		{
+			"offsets": [
+				-7,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "DaveLeftMiss"
+		},
+		{
+			"offsets": [
+				73,
+				-18
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "DaveDownMiss"
+		},
+		{
+			"offsets": [
+				4,
+				20
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "DaveUpMiss"
+		},
+		{
+			"offsets": [
+				90,
+				6
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "DaveRightMiss"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "farmer/DaveRunnin",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "davefarmer",
+	"flip_x": true,
+	"healthbar_colors": [
+		59,
+		20,
+		55
+	],
+	"camera_position": [
+		-40,
+		-10
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

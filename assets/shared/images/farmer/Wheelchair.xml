@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Wheelchair.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="WheelChair0000" x="10" y="10" width="401" height="596"/>
+	<SubTexture name="WheelChair0001" x="421" y="10" width="401" height="596"/>
+	<SubTexture name="WheelChair0002" x="832" y="10" width="401" height="596"/>
+	<SubTexture name="WheelChair0003" x="1243" y="10" width="401" height="596"/>
+	<SubTexture name="WheelChair0004" x="10" y="616" width="401" height="596"/>
+</TextureAtlas>
