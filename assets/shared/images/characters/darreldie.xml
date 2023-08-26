@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="darreldie.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fade0000" x="12" y="12" width="1920" height="1080"/>
+	<SubTexture name="fade0001" x="1952" y="12" width="1920" height="1080"/>
+	<SubTexture name="fade0002" x="3892" y="12" width="1920" height="1080"/>
+	<SubTexture name="fade0003" x="5832" y="12" width="1920" height="1080"/>
+	<SubTexture name="fade0004" x="12" y="1112" width="1920" height="1080"/>
+	<SubTexture name="fade0005" x="1952" y="1112" width="1920" height="1080"/>
+	<SubTexture name="fade0006" x="3892" y="1112" width="1920" height="1080"/>
+	<SubTexture name="fade0007" x="5832" y="1112" width="1920" height="1080"/>
+	<SubTexture name="fade0008" x="12" y="2212" width="1920" height="1080"/>
+	<SubTexture name="fade0009" x="1952" y="2212" width="1920" height="1080"/>
+	<SubTexture name="faderev0000" x="1952" y="2212" width="1920" height="1080"/>
+	<SubTexture name="faderev0001" x="3892" y="2212" width="1920" height="1080"/>
+	<SubTexture name="faderev0002" x="5832" y="2212" width="1920" height="1080"/>
+	<SubTexture name="faderev0003" x="12" y="3312" width="1920" height="1080"/>
+	<SubTexture name="faderev0004" x="1952" y="3312" width="1920" height="1080"/>
+	<SubTexture name="faderev0005" x="3892" y="3312" width="1920" height="1080"/>
+	<SubTexture name="faderev0006" x="5832" y="3312" width="1920" height="1080"/>
+	<SubTexture name="faderev0007" x="12" y="4412" width="1920" height="1080"/>
+	<SubTexture name="faderev0008" x="1952" y="4412" width="1920" height="1080"/>
+	<SubTexture name="faderev0009" x="3892" y="4412" width="1920" height="1080"/>
+	<SubTexture name="norm0000" x="1952" y="2212" width="1920" height="1080"/>
+</TextureAtlas>

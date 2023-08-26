@@ -1,11 +1,11 @@
 {
-	"idle_anim": "davedance",
-	"confirm_anim": "huh",
+	"confirm_anim": "davebop",
+	"idle_anim": "davebop",
 	"position": [
-		-66,
-		-61
+		16,
+		-44
 	],
 	"scale": 1,
-	"flipX": false,
-	"image": "Menu_Dave"
+	"image": "Menu_Dave",
+	"flipX": false
 }

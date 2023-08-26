@@ -3,14 +3,18 @@
 	"difficulties": "Hard",
 	"hideFreeplay": false,
 	"weekBackground": "chaptertwo",
-	"weekBefore": "tutorial",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "tutorial",
 	"startUnlocked": true,
-	"hideStoryMode": false,
+	"weekCharacters": [
+		"dave",
+		"",
+		"farmer"
+	],
 	"songs": [
 		[
 			"malic",
@@ -40,11 +44,7 @@
 			]
 		]
 	],
-	"weekCharacters": [
-		"",
-		"dave",
-		""
-	],
-	"hiddenUntilUnlocked": false,
-	"weekName": "3DDF: Chapter 2"
+	"hideStoryMode": false,
+	"weekName": "3DDF: Chapter 2",
+	"hiddenUntilUnlocked": false
 }

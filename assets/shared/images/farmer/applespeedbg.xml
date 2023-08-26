@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="applespeedbg.png">
+<SubTexture name="scroll0000" x="0" y="0" width="2200" height="1197" frameX="0" frameY="0" frameWidth="2196" frameHeight="1193" />
+<SubTexture name="scroll0001" x="2200" y="0" width="2200" height="1197" frameX="0" frameY="0" frameWidth="2196" frameHeight="1193" />
+<SubTexture name="scroll0002" x="0" y="1197" width="2200" height="1197" frameX="0" frameY="0" frameWidth="2196" frameHeight="1193" />
+<SubTexture name="scroll0003" x="2200" y="1197" width="2200" height="1197" frameX="0" frameY="0" frameWidth="2196" frameHeight="1193" />
+</TextureAtlas>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_Farmer.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="farmerbop0000" x="12" y="12" width="387" height="454" frameX="0" frameY="-4" frameWidth="402" frameHeight="459"/>
+	<SubTexture name="farmerbop0001" x="12" y="12" width="387" height="454" frameX="0" frameY="-4" frameWidth="402" frameHeight="459"/>
+	<SubTexture name="farmerbop0002" x="419" y="12" width="384" height="456" frameX="-7" frameY="-3" frameWidth="402" frameHeight="459"/>
+	<SubTexture name="farmerbop0003" x="419" y="12" width="384" height="456" frameX="-7" frameY="-3" frameWidth="402" frameHeight="459"/>
+	<SubTexture name="farmerbop0004" x="823" y="12" width="388" height="459" frameX="-13" frameY="0" frameWidth="402" frameHeight="459"/>
+	<SubTexture name="farmerbop0005" x="823" y="12" width="388" height="459" frameX="-13" frameY="0" frameWidth="402" frameHeight="459"/>
+	<SubTexture name="farmerbop0006" x="12" y="491" width="388" height="459" frameX="-14" frameY="0" frameWidth="402" frameHeight="459"/>
+	<SubTexture name="farmerbop0007" x="12" y="491" width="388" height="459" frameX="-14" frameY="0" frameWidth="402" frameHeight="459"/>
+	<SubTexture name="farmerbop0008" x="420" y="491" width="386" height="459" frameX="-13" frameY="0" frameWidth="402" frameHeight="459"/>
+	<SubTexture name="farmerbop0009" x="420" y="491" width="386" height="459" frameX="-13" frameY="0" frameWidth="402" frameHeight="459"/>
+	<SubTexture name="farmerbop0010" x="420" y="491" width="386" height="459" frameX="-13" frameY="0" frameWidth="402" frameHeight="459"/>
+	<SubTexture name="farmerbop0011" x="420" y="491" width="386" height="459" frameX="-13" frameY="0" frameWidth="402" frameHeight="459"/>
+	<SubTexture name="farmerbop0012" x="420" y="491" width="386" height="459" frameX="-13" frameY="0" frameWidth="402" frameHeight="459"/>
+	<SubTexture name="farmerbop0013" x="420" y="491" width="386" height="459" frameX="-13" frameY="0" frameWidth="402" frameHeight="459"/>
+</TextureAtlas>

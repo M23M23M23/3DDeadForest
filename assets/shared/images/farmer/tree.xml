@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="tree.png">
+<SubTexture name="treescroll0000" x="0" y="1780" width="996" height="714" frameX="-1152" frameY="-490" frameWidth="2196" frameHeight="1200" />
+<SubTexture name="treescroll0001" x="2199" y="0" width="973" height="751" frameX="-733" frameY="-453" frameWidth="2195" frameHeight="1200" />
+<SubTexture name="treescroll0002" x="0" y="907" width="2068" height="873" frameX="-131" frameY="-331" frameWidth="2195" frameHeight="1200" />
+<SubTexture name="treescroll0003" x="0" y="0" width="2199" height="907" frameX="0" frameY="-297" frameWidth="2195" frameHeight="1200" />
+</TextureAtlas>

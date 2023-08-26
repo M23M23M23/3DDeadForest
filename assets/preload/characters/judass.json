@@ -1,77 +1,77 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				20,
 				10
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "idle",
-			"fps": 24,
-			"name": "idle",
-			"indices": []
+			"indices": [],
+			"name": "idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				70,
-				25
+				120,
+				22
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "left",
-			"indices": []
+			"indices": [],
+			"name": "left"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				30,
-				-30
+				10,
+				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singDOWN",
-			"fps": 24,
-			"name": "down",
-			"indices": []
+			"indices": [],
+			"name": "down"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				107,
-				46
+				145,
+				56
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singUP",
-			"fps": 24,
-			"name": "up",
-			"indices": []
+			"indices": [],
+			"name": "up"
 		},
 		{
+			"offsets": [
+				-16,
+				37
+			],
 			"loop": false,
-			"offsets": [
-				-2,
-				26
-			],
-			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
 		},
 		{
-			"loop": true,
 			"offsets": [
-				7,
-				91
+				77,
+				181
 			],
-			"anim": "merry",
+			"indices": [],
 			"fps": 24,
-			"name": "merry",
-			"indices": []
+			"anim": "merry",
+			"loop": true,
+			"name": "chirstmas"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "judas/judass",
 	"position": [
-		100,
-		270
+		120,
+		290
 	],
 	"healthicon": "judas",
 	"flip_x": false,
@@ -81,8 +81,8 @@
 		30
 	],
 	"camera_position": [
-		-100,
-		100
+		-510,
+		-10
 	],
 	"sing_duration": 6.1,
 	"scale": 1

@@ -1,0 +1,11 @@
+{
+	"confirm_anim": "farmerbop",
+	"idle_anim": "farmerbop",
+	"position": [
+		56,
+		46
+	],
+	"scale": 0.9,
+	"image": "Menu_Farmer",
+	"flipX": false
+}
