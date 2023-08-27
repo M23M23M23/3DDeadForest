@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "FARMERIDLE"
+			"fps": 24,
+			"name": "FARMERIDLE",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				192,
 				13
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "FARMERLEFT"
+			"fps": 24,
+			"name": "FARMERLEFT",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				90,
 				-120
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "FARMERDOWN"
+			"fps": 24,
+			"name": "FARMERDOWN",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				207,
 				74
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "FARMERUP"
+			"fps": 24,
+			"name": "FARMERUP",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				50,
 				-50
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "FARMERRIGHT"
+			"fps": 24,
+			"name": "FARMERRIGHT",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -65,9 +65,9 @@
 	"healthicon": "farmer",
 	"flip_x": false,
 	"healthbar_colors": [
-		35,
-		25,
-		42
+		90,
+		27,
+		69
 	],
 	"camera_position": [
 		-100,

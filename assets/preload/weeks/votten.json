@@ -1,0 +1,32 @@
+{
+	"storyName": "verrotten old if you see this 3ddf is real and in arizona",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "chaptertwo",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"verrotten-old",
+			"farmer",
+			[
+				30,
+				0,
+				29
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "3DDF: Verrotten Old"
+}
