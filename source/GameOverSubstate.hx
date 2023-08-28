@@ -67,7 +67,12 @@ class GameOverSubstate extends MusicBeatSubstate
 		boyfriend.playAnim('firstDeath');
 
 		camFollowPos = new FlxObject(0, 0, 1, 1);
-		camFollowPos.setPosition(FlxG.camera.scroll.x + (FlxG.camera.width / 2), FlxG.camera.scroll.y + (FlxG.camera.height / 2));
+		if(!["disregarded", "desperation", "desolate", "end-of-an-era"].contains(PlayState.SONG.song.toLowerCase())) { // wah wah "String has no field replace" ill kill everyone you love. add the dashes
+			camFollowPos.setPosition(FlxG.camera.scroll.x + (FlxG.camera.width / 2), FlxG.camera.scroll.y + (FlxG.camera.height / 2));
+		} else {
+			FlxG.camera.target = new FlxObject(boyfriend.getGraphicMidpoint().x, boyfriend.getGraphicMidpoint().y, 1, 1);
+			FlxG.camera.zoom = 0;
+		}
 		add(camFollowPos);
 	}
 
