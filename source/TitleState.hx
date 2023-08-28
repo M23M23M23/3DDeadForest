@@ -284,7 +284,7 @@ class TitleState extends MusicBeatState
 		// bg.updateHitbox();
 		add(bg);
 
-		logoBl = new FlxSprite(titleJSON.titlex, titleJSON.titley);
+		logoBl = new FlxSprite(150, 225);
 		logoBl.frames = Paths.getSparrowAtlas('3ddeadlogobumpin');
 
 		logoBl.antialiasing = ClientPrefs.globalAntialiasing;
@@ -293,7 +293,7 @@ class TitleState extends MusicBeatState
 		logoBl.updateHitbox();
 		
 		
-		// logoBl.screenCenter();
+		logoBl.screenCenter(X);
 		// logoBl.color = FlxColor.BLACK;
 
 		swagShader = new ColorSwap();
@@ -777,6 +777,8 @@ class TitleState extends MusicBeatState
 	{
 		if (!skippedIntro)
 		{
+			FlxTween.tween(logoBl, {y: logoBl.y - 250}, 1.5, {ease: FlxEase.quadOut, type: ONESHOT});
+			
 			if (playJingle) //Ignore deez
 			{
 				var easteregg:String = FlxG.save.data.psychDevsEasterEgg;

@@ -59,16 +59,16 @@ class StoryMenuState extends MusicBeatState
 		if(curWeek >= WeekData.weeksList.length) curWeek = 0;
 		persistentUpdate = persistentDraw = true;
 
-		scoreText = new FlxText(10, 10, 0, "SCORE: 49324858", 36);
+		scoreText = new FlxText(10, 10, 0, "SCORE: 49324858", 30);
 		scoreText.setFormat("Schluber", 32);
 
-		txtWeekTitle = new FlxText(FlxG.width * 0.7, 10, 0, "", 32);
-		txtWeekTitle.setFormat("Schluber", 32, FlxColor.RED, RIGHT);
+		txtWeekTitle = new FlxText(FlxG.width * 0.7, 13, 500, "", 32);
+		txtWeekTitle.setFormat("Schluber", 32, FlxColor.RED, CENTER);
 		txtWeekTitle.alpha = 0.7;
 
 		var rankText:FlxText = new FlxText(0, 10);
 		rankText.text = 'RANK: GREAT';
-		rankText.setFormat(Paths.font("Schluber.ttf"), 32);
+		rankText.setFormat(Paths.font("Schluber.ttf"), 30);
 		rankText.size = scoreText.size;
 		rankText.screenCenter(X);
 
@@ -395,7 +395,7 @@ class StoryMenuState extends MusicBeatState
 
 		var leName:String = leWeek.storyName;
 		txtWeekTitle.text = leName.toUpperCase();
-		txtWeekTitle.x = FlxG.width - (txtWeekTitle.width + 10);
+		txtWeekTitle.x = FlxG.width - (txtWeekTitle.width + 380);
 
 		var bullShit:Int = 0;
 

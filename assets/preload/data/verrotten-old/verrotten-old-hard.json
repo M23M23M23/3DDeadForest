@@ -5703,6 +5703,26 @@
 				"bpm": 180
 			},
 			{
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"sectionBeats": 4,
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 180,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 180
+			},
+			{
 				"gfSection": false,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -5715,17 +5735,17 @@
 		],
 		"events": [
 			[
-				0,
+				0.694444444444444,
 				[
-					[
-						"Play Animation",
-						"voiceline",
-						"BF"
-					],
 					[
 						"Cinematics (No HUD)",
 						"1.3",
 						"140"
+					],
+					[
+						"Play Animation",
+						"voiceline",
+						"BF"
 					]
 				]
 			],

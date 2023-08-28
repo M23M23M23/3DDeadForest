@@ -1,16 +1,20 @@
 {
-	"storyName": "the finale",
+	"storyName": "THE APOSTLE.  THE BOY OF ROSES.",
 	"difficulties": "Hard",
 	"hideFreeplay": false,
 	"weekBackground": "chapterthree",
-	"weekBefore": "tutorial",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "tutorial",
 	"startUnlocked": true,
-	"hideStoryMode": false,
+	"weekCharacters": [
+		"eyes",
+		"",
+		""
+	],
 	"songs": [
 		[
 			"end-of-an-era",
@@ -22,11 +26,7 @@
 			]
 		]
 	],
-	"weekCharacters": [
-		"eyes",
-		"",
-		""
-	],
-	"hiddenUntilUnlocked": false,
-	"weekName": "3DDF: Chapter 3"
+	"hideStoryMode": false,
+	"weekName": "3DDF: Chapter 3",
+	"hiddenUntilUnlocked": false
 }

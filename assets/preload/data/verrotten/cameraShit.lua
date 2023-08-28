@@ -1,4 +1,4 @@
-local angleshit = 1; --bbpanzu forgive me
+local angleshit = 1; --bbpanzu Thanks Devious giggle 
 local anglevar = 1;
 
 function onStepHit()

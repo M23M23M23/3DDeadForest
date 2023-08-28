@@ -25,7 +25,7 @@ using StringTools;
 
 class MainMenuState extends MusicBeatState
 {
-	public static var psychEngineVersion:String = '0.1.1'; //This is also used for Discord RPC
+	public static var psychEngineVersion:String = '0.5'; //This is also used for Discord RPC
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
@@ -78,7 +78,7 @@ class MainMenuState extends MusicBeatState
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
 		add(bg);
 		
-		var setan:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('setanrender'));
+		var setan:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('judasrender'));
 		setan.scrollFactor.set(0, yScroll);
 		setan.setGraphicSize(Std.int(setan.width * 1.175));
 		setan.updateHitbox();
