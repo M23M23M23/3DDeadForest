@@ -1,0 +1,32 @@
+{
+	"songs": [
+		[
+			"club-jump",
+			"judas",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "BY JESUS STUDIOS!!!!",
+	"weekName": "3DDF: CLUB JUMP!!YAYYYY :D",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}
