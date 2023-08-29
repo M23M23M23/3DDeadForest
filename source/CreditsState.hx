@@ -89,7 +89,7 @@ class CreditsState extends MusicBeatState
 			['Laser',				'laser',			'Artist for 3D Dead Forest',									'https://twitter.com/laser_uncool',	'490000'],
 			['Limecore',			'lime',				'Composer for 3DDF (icon by @twigh0use)',						'https://twitter.com/limecorereboot',			'490000'],
 			['EelGraveyard',		'kerlen',			'Wiki editor and Story Writer for 3D Dead Forest',				'https://twitter.com/eelgraveyard',			'490000'],
-			['Lightybulb',			'light',			'Chromatic Scale Maker 3D Artist + Animator and Menu Artist + 2D Art',						'https://icouldntfindanylinksforyouimsorry.com',			'490000'],
+			['Lighty',				'light',				'Chromatic Scale Maker 3D Artist + Animator and Menu Artist + 2D Art',						'https://icouldntfindanylinksforyouimsorry.com',			'490000'],
 			['Tac',					'tac',				'Concept Artist + Artist for 3DDF',								'https://twitter.com/sunfl_ow3rz099',	'490000'],
 			['Wonder',				'daizo',			'3D Artist + Animator for 3DDF',								'https://nolinksblililililililil.com',	'490000'],
 			['GabeDoesStuff',		'gabe',				'3D Artist, 2D Artist + Musician for 3DDF',						'https://twitter.com/G4br19',			'490000'],

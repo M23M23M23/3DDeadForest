@@ -16,7 +16,7 @@ function onUpdate()
 	if keyPressed('space') then
 		endSong()
     end
-	if keyPressed('down') then
+	if keyJustPressed('down') then
 		makeLuaSprite('free', 'free', 0, 0);
 		setScrollFactor('free', 0.9, 0.9);
 		setObjectCamera('free', 'other');
