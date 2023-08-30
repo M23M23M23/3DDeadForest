@@ -86,7 +86,7 @@ class CreditsState extends MusicBeatState
 			['Lateral',				'lateral',			'Co-Director and Artist',										'https://twitter.com/Lateralxyz',		'7F0000'],
 			['M23',					'm23',				'Co-Director, Artist, Coder, Musician',							'https://twitter.com/m23m23m23_',			'7F0000'],
 			['3DDF Team'],
-			['Laser',				'laser',			'Artist for 3D Dead Forest',									'https://twitter.com/laser_uncool',	'490000'],
+			['Laser',				'laser',			'Artist for 3D Dead Forest',									'https://twitter.com/Las3r__',	'490000'],
 			['Limecore',			'lime',				'Composer for 3DDF (icon by @twigh0use)',						'https://twitter.com/limecorereboot',			'490000'],
 			['EelGraveyard',		'kerlen',			'Wiki editor and Story Writer for 3D Dead Forest',				'https://twitter.com/eelgraveyard',			'490000'],
 			['Lighty',				'light',				'Chromatic Scale Maker 3D Artist + Animator and Menu Artist + 2D Art',						'https://icouldntfindanylinksforyouimsorry.com',			'490000'],
