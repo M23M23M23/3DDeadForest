@@ -29,6 +29,7 @@ class MainMenuState extends MusicBeatState
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
+	
 	private var camGame:FlxCamera;
 	private var camAchievement:FlxCamera;
 	
@@ -38,6 +39,9 @@ class MainMenuState extends MusicBeatState
 		'credits',
 		'options'
 	];
+
+	var bg:FlxSprite;
+	var setan:FlxSprite;
 
 	var camFollow:FlxObject;
 	var camFollowPos:FlxObject;
@@ -56,6 +60,8 @@ class MainMenuState extends MusicBeatState
 		#end
 		debugKeys = ClientPrefs.copyKey(ClientPrefs.keyBinds.get('debug_1'));
 
+		FlxG.mouse.visible = true;
+
 		camGame = new FlxCamera();
 		camAchievement = new FlxCamera();
 		camAchievement.bgColor.alpha = 0;
@@ -70,7 +76,7 @@ class MainMenuState extends MusicBeatState
 		persistentUpdate = persistentDraw = true;
 
 		var yScroll:Float = Math.max(0.25 - (0.05 * (optionShit.length - 4)), 0.1);
-		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuBG'));
+		bg = new FlxSprite(-80).loadGraphic(Paths.image('menuBG'));
 		bg.scrollFactor.set(0, yScroll);
 		bg.setGraphicSize(Std.int(bg.width * 1.175));
 		bg.updateHitbox();
@@ -78,7 +84,7 @@ class MainMenuState extends MusicBeatState
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
 		add(bg);
 		
-		var setan:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('judasrender'));
+		setan = new FlxSprite(0, 0).loadGraphic(Paths.image('judasrender'));
 		setan.scrollFactor.set(0, yScroll);
 		setan.setGraphicSize(Std.int(setan.width * 1.175));
 		setan.updateHitbox();
@@ -105,6 +111,9 @@ class MainMenuState extends MusicBeatState
 
 		menuItems = new FlxTypedGroup<FlxSprite>();
 		add(menuItems);
+
+		hbGrp = new FlxTypedGroup<FlxSprite>();
+		add(hbGrp);
 
 		var scale:Float = 1;
 		/*if(optionShit.length > 6) {
@@ -176,6 +185,12 @@ class MainMenuState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
+
+		bg.x = ((FlxG.width - FlxG.mouse.screenX * 3) / 90) - 200;
+		bg.y = ((FlxG.height - FlxG.mouse.screenY * 3) / 90) - 50;
+		setan.x = ((FlxG.width - FlxG.mouse.screenX * 2) / 90) - 200;
+		setan.y = ((FlxG.height - FlxG.mouse.screenY * 2) / 90) - 50;
+
 		if (FlxG.sound.music.volume < 0.8)
 		{
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
@@ -187,6 +202,8 @@ class MainMenuState extends MusicBeatState
 
 		if (!selectedSomethin)
 		{
+
+
 			if (controls.UI_UP_P)
 			{
 				FlxG.sound.play(Paths.sound('scrollMenu'));
@@ -204,6 +221,14 @@ class MainMenuState extends MusicBeatState
 				selectedSomethin = true;
 				FlxG.sound.play(Paths.sound('cancelMenu'));
 				MusicBeatState.switchState(new TitleState());
+			}
+
+			if (FlxG.mouse.justMoved){
+				menuItems.forEach(function(spr:FlxSprite){
+					if (!FlxG.mouse.overlaps(spr)){
+						trace(optionShit[spr.ID]);
+					}
+				});
 			}
 
 			if (controls.ACCEPT)
