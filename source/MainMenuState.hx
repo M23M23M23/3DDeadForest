@@ -203,7 +203,7 @@ class MainMenuState extends MusicBeatState
 
 			if (controls.UI_DOWN_P)
 			{
-				FlxG.sound.play(Paths.sound('scrollMenu'));
+
 				changeItem(1);
 			}
 
@@ -217,51 +217,56 @@ class MainMenuState extends MusicBeatState
 				menuItems.forEach(function(spr:FlxSprite){
 					if (FlxG.mouse.overlaps(spr)){
 						curSelected = spr.ID;
-						changeItem();
 
-					if (FlxG.mouse.justPressed){
-						selectedSomethin = true;
-						FlxG.sound.play(Paths.sound('confirmMenu'));
-
-
-						menuItems.forEach(function(spr:FlxSprite)
-						{
-							if (curSelected != spr.ID)
-							{
-								FlxTween.tween(spr, {alpha: 0}, 0.4, {
-									ease: FlxEase.quadOut,
-									onComplete: function(twn:FlxTween)
-									{
-										spr.kill();
-									}
-								});
-							}
-							else
-							{
-								FlxFlicker.flicker(spr, 1, 0.06, false, false, function(flick:FlxFlicker)
-								{
-									var daChoice:String = optionShit[curSelected];
-
-									switch (daChoice)
-									{
-										case 'story':
-											MusicBeatState.switchState(new StoryMenuState());
-										case 'freeplay':
-											MusicBeatState.switchState(new FreeplayState());
-										#if MODS_ALLOWED
-										case 'mods':
-											MusicBeatState.switchState(new ModsMenuState());
-										#end
-										case 'awards':
-											MusicBeatState.switchState(new AchievementsMenuState());
-										case 'credits':
-											MusicBeatState.switchState(new CreditsState());
-										case 'op':
-											LoadingState.loadAndSwitchState(new options.OptionsState());
-									}
-								});
+						if (spr.ID == curSelected && spr.animation.curAnim.name != 'selected'){
+							FlxG.sound.play(Paths.sound('scrollMenu'));
+							changeItem();
 						}
-					});
+
+
+						if (FlxG.mouse.justPressed){
+							selectedSomethin = true;
+							FlxG.sound.play(Paths.sound('confirmMenu'));
+
+
+							menuItems.forEach(function(spr:FlxSprite)
+							{
+								if (curSelected != spr.ID)
+								{
+									FlxTween.tween(spr, {alpha: 0}, 0.4, {
+										ease: FlxEase.quadOut,
+										onComplete: function(twn:FlxTween)
+										{
+											spr.kill();
+										}
+									});
+								}
+							else
+								{
+									FlxFlicker.flicker(spr, 1, 0.06, false, false, function(flick:FlxFlicker)
+									{
+										var daChoice:String = optionShit[curSelected];
+
+										switch (daChoice)
+										{
+											case 'story':
+												MusicBeatState.switchState(new StoryMenuState());
+											case 'freeplay':
+												MusicBeatState.switchState(new FreeplayState());
+											#if MODS_ALLOWED
+											case 'mods':
+												MusicBeatState.switchState(new ModsMenuState());
+											#end
+											case 'awards':
+												MusicBeatState.switchState(new AchievementsMenuState());
+											case 'credits':
+												MusicBeatState.switchState(new CreditsState());
+											case 'op':
+												LoadingState.loadAndSwitchState(new options.OptionsState());
+										}
+									});
+								}
+							});
 						}
 					}
 				});
