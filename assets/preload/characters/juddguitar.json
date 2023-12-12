@@ -1,0 +1,88 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				21,
+				10
+			],
+			"indices": [
+				8
+			],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				21,
+				10
+			],
+			"indices": [
+				8
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				21,
+				10
+			],
+			"indices": [
+				8
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				21,
+				10
+			],
+			"indices": [
+				8
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				21,
+				10
+			],
+			"indices": [
+				8
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/clubjump2/juddguitar",
+	"position": [
+		110,
+		380
+	],
+	"healthicon": "judd",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		-260,
+		-20
+	],
+	"sing_duration": 6.1,
+	"scale": 1.6
+}

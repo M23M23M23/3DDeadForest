@@ -1,63 +1,63 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				1,
 				-199
 			],
-			"anim": "singLEFT",
-			"fps": 24,
-			"name": "left",
-			"indices": []
-		},
-		{
 			"loop": false,
-			"offsets": [
-				1,
-				-198
-			],
-			"anim": "singDOWN",
 			"fps": 24,
-			"name": "down",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				1,
-				-199
-			],
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "right",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				1,
-				-199
-			],
-			"anim": "singUP",
-			"fps": 24,
-			"name": "up",
-			"indices": []
-		},
-		{
-			"loop": true,
-			"offsets": [
-				1,
-				-199
-			],
 			"anim": "idle",
+			"indices": [],
+			"name": "Setan_Idle"
+		},
+		{
+			"offsets": [
+				116,
+				-204
+			],
+			"loop": false,
 			"fps": 24,
-			"name": "idle",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Setan_Left"
+		},
+		{
+			"offsets": [
+				16,
+				-194
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Setan_Down"
+		},
+		{
+			"offsets": [
+				33,
+				-200
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Setan_Right"
+		},
+		{
+			"offsets": [
+				11,
+				-188
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Setan_Up"
 		}
 	],
 	"no_antialiasing": true,
-	"image": "setan/setan_standstill",
+	"image": "setan/Setan_Desp",
 	"position": [
 		-140,
 		-10
@@ -70,7 +70,7 @@
 		19
 	],
 	"camera_position": [
-		-20,
+		0,
 		240
 	],
 	"sing_duration": 6.1,

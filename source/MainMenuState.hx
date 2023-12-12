@@ -103,8 +103,8 @@ class MainMenuState extends MusicBeatState
 
 		camFollow = new FlxObject(0, 0, 1, 1);
 		camFollowPos = new FlxObject(0, 0, 1, 1);
-		add(camFollow);
-		add(camFollowPos);
+		//add(camFollow);
+		//add(camFollowPos);
 
 		
 		// magenta.scrollFactor.set();
@@ -112,8 +112,8 @@ class MainMenuState extends MusicBeatState
 		menuItems = new FlxTypedGroup<FlxSprite>();
 		add(menuItems);
 
-		hbGrp = new FlxTypedGroup<FlxSprite>();
-		add(hbGrp);
+		///hbGrp = new FlxTypedGroup<FlxSprite>();
+		//add(hbGrp);
 
 		var scale:Float = 1;
 		/*if(optionShit.length > 6) {
@@ -141,7 +141,7 @@ class MainMenuState extends MusicBeatState
 			menuItem.updateHitbox();
 		}
 
-		FlxG.camera.follow(camFollowPos, null, 1);
+		//FlxG.camera.follow(camFollowPos, null, 1);
 
 		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "3D Dead Forest v" + psychEngineVersion, 12);
 		versionShit.scrollFactor.set();
@@ -186,10 +186,10 @@ class MainMenuState extends MusicBeatState
 	override function update(elapsed:Float)
 	{
 
-		bg.x = ((FlxG.width - FlxG.mouse.screenX * 3) / 90) - 200;
-		bg.y = ((FlxG.height - FlxG.mouse.screenY * 3) / 90) - 50;
-		setan.x = ((FlxG.width - FlxG.mouse.screenX * 2) / 90) - 200;
-		setan.y = ((FlxG.height - FlxG.mouse.screenY * 2) / 90) - 50;
+		//bg.x = ((FlxG.width - FlxG.mouse.screenX * 3) / 90) - 200;
+		//bg.y = ((FlxG.height - FlxG.mouse.screenY * 3) / 90) - 50;
+		//setan.x = ((FlxG.width - FlxG.mouse.screenX * 2) / 90) - 200;
+		//setan.y = ((FlxG.height - FlxG.mouse.screenY * 2) / 90) - 50;
 
 		if (FlxG.sound.music.volume < 0.8)
 		{
@@ -197,8 +197,8 @@ class MainMenuState extends MusicBeatState
 			if(FreeplayState.vocals != null) FreeplayState.vocals.volume += 0.5 * elapsed;
 		}
 
-		var lerpVal:Float = CoolUtil.boundTo(elapsed * 7.5, 0, 1);
-		camFollowPos.setPosition(FlxMath.lerp(camFollowPos.x, camFollow.x, lerpVal), FlxMath.lerp(camFollowPos.y, camFollow.y, lerpVal));
+		//var lerpVal:Float = CoolUtil.boundTo(elapsed * 7.5, 0, 1);
+		//camFollowPos.setPosition(FlxMath.lerp(camFollowPos.x, camFollow.x, lerpVal), FlxMath.lerp(camFollowPos.y, camFollow.y, lerpVal));
 
 		if (!selectedSomethin)
 		{
@@ -321,7 +321,7 @@ class MainMenuState extends MusicBeatState
 				if(menuItems.length > 4) {
 					add = menuItems.length * 8;
 				}
-				camFollow.setPosition(spr.getGraphicMidpoint().x, spr.getGraphicMidpoint().y - add);
+				//camFollow.setPosition(spr.getGraphicMidpoint().x, spr.getGraphicMidpoint().y - add);
 				spr.centerOffsets();
 			}
 		});
