@@ -34,14 +34,20 @@ class MainMenuState extends MusicBeatState
 	private var camAchievement:FlxCamera;
 	
 	var optionShit:Array<String> = [
-		'story_mode',
+		'story',
 		'freeplay',
 		'credits',
-		'options'
+		'op'
+	];
+
+	var optionPos:Array<Dynamic> = [
+		{x: 230, y: 120},
+		{x: 600, y: 170},
+		{x: 450, y: 380},
+		{x: 800, y: 240}
 	];
 
 	var bg:FlxSprite;
-	var setan:FlxSprite;
 
 	var camFollow:FlxObject;
 	var camFollowPos:FlxObject;
@@ -77,26 +83,18 @@ class MainMenuState extends MusicBeatState
 
 		var yScroll:Float = Math.max(0.25 - (0.05 * (optionShit.length - 4)), 0.1);
 		bg = new FlxSprite(-80).loadGraphic(Paths.image('menuBG'));
-		bg.scrollFactor.set(0, yScroll);
+		bg.scrollFactor.set(0, 0);
 		bg.setGraphicSize(Std.int(bg.width * 1.175));
 		bg.updateHitbox();
 		bg.screenCenter();
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
 		add(bg);
 		
-		setan = new FlxSprite(0, 0).loadGraphic(Paths.image('judasrender'));
-		setan.scrollFactor.set(0, yScroll);
-		setan.setGraphicSize(Std.int(setan.width * 1.175));
-		setan.updateHitbox();
-		setan.screenCenter();
-		setan.antialiasing = ClientPrefs.globalAntialiasing;
-		add(setan);
-		
-		var wall:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('wall'));
-		wall.scrollFactor.set(0, yScroll);
-		wall.setGraphicSize(Std.int(wall.width * 1.175));
+		var wall:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('newMenu/postboard'));
+		wall.scrollFactor.set(0, 0);
 		wall.updateHitbox();
 		wall.screenCenter();
+		wall.y += 20;
 		wall.antialiasing = ClientPrefs.globalAntialiasing;
 		add(wall);
 		
@@ -122,16 +120,14 @@ class MainMenuState extends MusicBeatState
 
 		for (i in 0...optionShit.length)
 		{
-			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-			var menuItem:FlxSprite = new FlxSprite(0, -100  + offset);
+			var menuItem:FlxSprite = new FlxSprite(optionPos[i].x, optionPos[i].y);
 			menuItem.scale.x = scale;
 			menuItem.scale.y = scale;
-			menuItem.frames = Paths.getSparrowAtlas('newbuttons/menu_' + optionShit[i]);
+			menuItem.frames = Paths.getSparrowAtlas('newMenu/' + optionShit[i]);
 			menuItem.animation.addByPrefix('idle', optionShit[i] + " basic", 24);
 			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
 			menuItem.animation.play('idle');
 			menuItem.ID = i;
-			menuItem.screenCenter(X);
 			menuItems.add(menuItem);
 			var scr:Float = (optionShit.length - 4) * 0.135;
 			if(optionShit.length < 6) scr = 0;
@@ -212,7 +208,7 @@ class MainMenuState extends MusicBeatState
 
 			if (controls.UI_DOWN_P)
 			{
-				FlxG.sound.play(Paths.sound('scrollMenu'));
+
 				changeItem(1);
 			}
 
@@ -223,13 +219,62 @@ class MainMenuState extends MusicBeatState
 				MusicBeatState.switchState(new TitleState());
 			}
 
-			if (FlxG.mouse.justMoved){
 				menuItems.forEach(function(spr:FlxSprite){
-					if (!FlxG.mouse.overlaps(spr)){
-						trace(optionShit[spr.ID]);
+					if (FlxG.mouse.overlaps(spr)){
+						curSelected = spr.ID;
+
+						if (spr.ID == curSelected && spr.animation.curAnim.name != 'selected'){
+							FlxG.sound.play(Paths.sound('scrollMenu'));
+							changeItem();
+						}
+
+
+						if (FlxG.mouse.justPressed){
+							selectedSomethin = true;
+							FlxG.sound.play(Paths.sound('confirmMenu'));
+
+
+							menuItems.forEach(function(spr:FlxSprite)
+							{
+								if (curSelected != spr.ID)
+								{
+									FlxTween.tween(spr, {alpha: 0}, 0.4, {
+										ease: FlxEase.quadOut,
+										onComplete: function(twn:FlxTween)
+										{
+											spr.kill();
+										}
+									});
+								}
+							else
+								{
+									FlxFlicker.flicker(spr, 1, 0.06, false, false, function(flick:FlxFlicker)
+									{
+										var daChoice:String = optionShit[curSelected];
+
+										switch (daChoice)
+										{
+											case 'story':
+												MusicBeatState.switchState(new StoryMenuState());
+											case 'freeplay':
+												MusicBeatState.switchState(new FreeplayState());
+											#if MODS_ALLOWED
+											case 'mods':
+												MusicBeatState.switchState(new ModsMenuState());
+											#end
+											case 'awards':
+												MusicBeatState.switchState(new AchievementsMenuState());
+											case 'credits':
+												MusicBeatState.switchState(new CreditsState());
+											case 'op':
+												LoadingState.loadAndSwitchState(new options.OptionsState());
+										}
+									});
+								}
+							});
+						}
 					}
 				});
-			}
 
 			if (controls.ACCEPT)
 			{
@@ -263,7 +308,7 @@ class MainMenuState extends MusicBeatState
 
 								switch (daChoice)
 								{
-									case 'story_mode':
+									case 'story':
 										MusicBeatState.switchState(new StoryMenuState());
 									case 'freeplay':
 										MusicBeatState.switchState(new FreeplayState());
@@ -275,7 +320,7 @@ class MainMenuState extends MusicBeatState
 										MusicBeatState.switchState(new AchievementsMenuState());
 									case 'credits':
 										MusicBeatState.switchState(new CreditsState());
-									case 'options':
+									case 'op':
 										LoadingState.loadAndSwitchState(new options.OptionsState());
 								}
 							});
@@ -293,11 +338,6 @@ class MainMenuState extends MusicBeatState
 		}
 
 		super.update(elapsed);
-
-		menuItems.forEach(function(spr:FlxSprite)
-		{
-			spr.screenCenter(X);
-		});
 	}
 
 	function changeItem(huh:Int = 0)

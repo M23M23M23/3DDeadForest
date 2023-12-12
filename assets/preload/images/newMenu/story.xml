@@ -2,6 +2,6 @@
 <TextureAtlas imagePath="story.png">
 	<!-- Created with Adobe Animate version 21.0.6.41649 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="story_mode basic0000" x="12" y="12" width="230" height="300"/>
-	<SubTexture name="story_mode white0000" x="262" y="12" width="230" height="282"/>
+	<SubTexture name="story basic0000" x="12" y="12" width="230" height="300"/>
+	<SubTexture name="story white0000" x="262" y="12" width="230" height="282"/>
 </TextureAtlas>
